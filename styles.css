@@ -1,0 +1,107 @@
+:root {
+  --font-family: "Glory", sans-serif;
+  --second-family: "Inter", sans-serif;
+  --third-family: "Roboto", sans-serif;
+  --font4: "Inria Serif", sans-serif;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #313131;
+}
+
+.header__stripe {
+    display: flex;
+    gap: 180px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo {
+
+}
+
+.header__logo-subtitle {
+    font-family: var(--font4);
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+}
+
+.header__nav {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+}
+
+.header__nav-search {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-search img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__nav-search-subtitle {
+
+}
+
+.header__nav-notifications {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav-notifications img {
+    width: 24px;
+    height: 24px;
+}
+
+.header__nav-notifications-subtitle {
+
+}
+
+.header__account-button {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 32px;
+    width: 211px;
+    height: 46px;
+    background: #d10000;
+}
