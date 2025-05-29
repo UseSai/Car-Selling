@@ -197,3 +197,350 @@ ul {
     top: 580px;
 }
 
+.settings {
+    display: flex;
+    gap: 32px;
+}
+
+.settings__parametres {
+    border-radius: 27px;
+    width: 604px;
+    height: 466px;
+    box-shadow: 0 0 11px 0 rgba(70, 69, 69, 0.25);
+}
+
+.settings__top-plate {
+    border-radius: 27px;
+    width: 604px;
+    height: 80px;
+    box-shadow: 0 0 11px 0 rgba(70, 69, 69, 0.25);
+    display: flex;
+    gap: 165px;
+}
+
+.top-plate__left-col {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+}
+
+.top-plate__region-button {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.top-plate__right-col {
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.top-plate__reset-button {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.top-plate__collapse-button {
+    display: flex;
+    gap: 5px;
+}
+
+.settings__bottom-plates {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.bottom-plates__first-plate {
+    padding-top: 20px;
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.brand-button__input {
+    margin-top: 4px;
+    font-family: var(--second-family);
+    font-size: 14px;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 246px;
+    height: 30px;
+}
+
+.brand-button__button {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 8px;
+}
+
+.model-button__input {
+    margin-top: 4px;
+    font-family: var(--second-family);
+    font-size: 14px;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 246px;
+    height: 30px;
+}
+
+.model-button__button {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 8px;
+}
+
+.bottom-plates__second-plate {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.type-button__choice {
+    padding-top: 4px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #d10000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.type-button__choice-button {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    padding: 4px 12px;
+    background: white;
+    width: 122px;
+}
+
+.second-plate__mileage-button {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.mileage-button__choice {
+    padding-top: 4px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mileage-button__choice-button {
+    font-family: var(--second-family);
+    font-size: 14px;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 116px;
+    height: 30px;
+}
+
+.mileage-button__choice-input {
+    font-family: var(--second-family);
+    font-size: 14px;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 116px;
+    height: 30px;
+    text-align: center;
+}
+
+.bottom-plates__third-plate {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+}
+
+.volume-button__input {
+    margin-top: 4px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 246px;
+    height: 30px;
+}
+
+.volume-button__button {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 8px;
+}
+
+.power-button__inputs {
+    display: flex;
+    gap: 15px;
+}
+
+.power-button__input {
+    margin-top: 4px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 116px;
+    height: 30px;
+}
+
+.power-button__button1 {
+    position: absolute;
+    margin-left: 92px;
+    margin-top: 8px;
+}
+
+.power-button__button2 {
+    position: absolute;
+    margin-left: 222px;
+    margin-top: 8px;
+}
+
+.bottom-plates__fourth-plate {
+    display: flex;
+    gap: 33px;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 129%;
+    color: #313131;
+    padding-bottom: 32px;
+}
+
+.transimission-button__input {
+    margin-top: 4px;
+    font-family: var(--second-family);
+    font-size: 14px;
+    color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    padding: 6px 12px;
+    width: 246px;
+    height: 30px;
+}
+
+.transimission-button__button {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 8px;
+}
+
+.drive-button__choice {
+    padding-top: 4px;
+    font-family: var(--font-family);
+    font-size: 14px;
+    color: #d10000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drive-button__button {
+    border: 1px solid #cfcfcf;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    width: 82px;
+}
+
+.settings__show-button {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 12px 24px;
+    width: 314px;
+    height: 46px;
+    background: #d10000;
+    margin-left: 250px;
+}
+
+.settings__signatures {
+    padding-left: 32px;
+    padding-top: 90px;
+}
+
+.settings__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #313131;
+}
+
+.settings__subtitle {
+    padding-top: 33px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #313131;
+}
+
+.settings__partners {
+    padding-top: 16px;
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 120%;
+    color: #313131;
+}
