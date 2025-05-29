@@ -744,3 +744,18 @@ ul {
     padding-left: 327px;
     margin-top: -150px;
 }
+
+.footer {
+    background: #313131;
+}
+
+.footer__sign {
+    padding-top: 25px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+    text-align: center;
+    color: #fff;
+    padding-left: 7px;
+}
