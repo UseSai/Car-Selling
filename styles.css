@@ -585,14 +585,6 @@ ul {
     padding-top: 15px;
 }
 
-.notifications__right-col {
-
-}
-
-.notifications__logo {
-
-}
-
 .notifications__title {
     padding-top: 32px;
     font-family: var(--font-family);
@@ -718,4 +710,37 @@ ul {
     position: absolute;
     padding-top: 6px;
     padding-left: 300px;
+}
+
+.checkmark {
+    padding-top: 180px;
+}
+
+.checkmark__logo {
+
+}
+
+.checkmark__title {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    color: #313131;
+    padding-top: 30px;
+    max-width: 430px;
+}
+
+.checkmark__subtitle {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 130%;
+    color: #313131;
+    padding-top: 30px;
+    max-width: 567px;
+}
+
+.checkmark__car {
+    padding-left: 327px;
+    margin-top: -150px;
 }
